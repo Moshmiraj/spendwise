@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+
+# Generated files
+/generated/prisma
+frontend/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.sf/
